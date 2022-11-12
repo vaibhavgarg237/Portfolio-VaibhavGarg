@@ -33,7 +33,7 @@ function Home() {
         className="CIRCLE w-14 h-14 left-[50vw] top-[50vh] bg-white rounded-full z-[1] mix-blend-difference absolute duration-100  pointer-events-none"
         ref={ref}
       ></div>
-      <div className="HOVER_ELEMENT absolute left-12 top-8 font-semibold text-4xl cursor-none duration-500 hover:text-[2.75rem] hover:font-bold">
+      <div className="HOVER_ELEMENT absolute left-12 top-8 font-semibold { text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] lg:text-[2.25rem] } cursor-none duration-500 hover:text-[2.75rem] hover:font-bold">
         <Link to="/">Home </Link>
       </div>
 
@@ -73,7 +73,7 @@ function Home() {
           Contact
         </Link>
       </div>
-      <footer className="absolute [ right-12 top-10 , md:right-auto md:top-auto md:left-12 md:bottom-8 ] text-white font-medium text-2xl opacity-80">
+      <footer className="absolute [ right-12 top-10 , md:right-auto md:top-auto md:left-12 md:bottom-8 ] text-white font-medium { text-[0.9rem] sm:text-[1.1rem] md:text-[1.3rem] lg:text-[1.5rem] } opacity-80">
         © {new Date().getFullYear()}
       </footer>
     </div>

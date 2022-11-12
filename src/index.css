@@ -7,7 +7,8 @@ html {
   color: white;
   text-decoration-color: white;
   cursor: none;
-  font-family: cursive, Chakra Petch;
+  /* font-family: cursive, Chakra Petch; */
+  font-family: "Chakra Petch", sans-serif;
 }
 
 /* latin-ext */
