@@ -23,7 +23,6 @@ function Home() {
   return (
     <div
       className="w-screen h-screen text-wh md:flex md:items-center "
-      // style={{ fontFamily: "Cutive Mono" }}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       data-aos="zoom-out"
