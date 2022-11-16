@@ -2,6 +2,9 @@ import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "atropos/css";
+import Atropos from "atropos/react";
+
 AOS.init();
 
 function Home() {
@@ -30,20 +33,21 @@ function Home() {
     >
       {/* POINTER */}
       <div
-        className="CIRCLE w-14 h-14 left-[50vw] top-[50vh] bg-white rounded-full z-[1] mix-blend-difference absolute duration-100  pointer-events-none"
+        className="CIRCLE w-14 h-14 left-[50vw] top-[50vh] bg-white rounded-full z-[100] mix-blend-difference absolute duration-100  pointer-events-none"
         ref={ref}
       ></div>
       <div className="HOVER_ELEMENT absolute left-12 top-8 font-semibold { text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] lg:text-[2.25rem] } cursor-none duration-500 hover:text-[2.75rem] hover:font-bold">
         <Link to="/">Home </Link>
       </div>
-
       <div className="INTRO [mobile= mx-auto pt-40 pb-36 w-fit ] md:p-[] md:ml-10 lg:ml-20 xl:ml-40 ">
-        <div className="NAME font-semibold mb-4 text-3xl hover:text-4xl hover:font-bold duration-500">
-          Vaibhav Garg
-        </div>
-        <div className="text-1xl md:text-2xl">
-          Software Engineer during the day. <br /> Explorer during the night.
-        </div>
+        <Atropos className="w-full h-full rounded-full p-5">
+          <div className="NAME font-semibold mb-4 text-3xl hover:text-4xl hover:font-bold duration-500">
+            Vaibhav Garg
+          </div>
+          <div className="text-1xl md:text-2xl">
+            Software Engineer during the day. <br /> Explorer during the night.
+          </div>
+        </Atropos>
       </div>
 
       <div className="OTHER_LINKS cursor-none relative || [ mx-auto text-7xl md:ml-auto md:mr-10 lg:mr-20 lg:text-8xl xl:mr-40  || space-y-6 w-fit flex flex-col ">
