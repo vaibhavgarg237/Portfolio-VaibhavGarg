@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Work from "./components/Work";
+// import Work from "./components/Work";
 import Contact from "./components/Contact";
-import About from "./components/About";
+// import About from "./components/About";
 import UnderMaintenance from "./components/UnderMaintenance";
 
 function App() {

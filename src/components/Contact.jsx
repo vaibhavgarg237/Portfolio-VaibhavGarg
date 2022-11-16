@@ -1,38 +1,16 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
 function Contact() {
-  //Pointer navigation
-  const ref = useRef();
-  const handleMouseMove = (event) => {
-    const pointer = ref.current.style;
-    pointer.transition = "0.2s";
-    pointer.transform = "scale(1)";
-    pointer.left = `${event.pageX - 30}px`;
-    pointer.top = `${event.pageY - 30}px`;
-  };
-  const handleMouseLeave = () => {
-    const pointer = ref.current.style;
-    pointer.transition = "0.2s";
-    pointer.transform = "scale(0)";
-  };
-
   return (
     <div
       className="w-screen h-screen flex justify-center items-center "
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
       data-aos="zoom-out"
       data-aos-duration="1000"
     >
-      {/* POINTER */}
-      <div
-        className="CIRCLE w-14 h-14 left-[20vw] top-[80vh] bg-white rounded-full z-[1] mix-blend-difference absolute duration-100  pointer-events-none"
-        ref={ref}
-      ></div>
       <div className="HOVER_ELEMENT absolute left-12 top-8 w-fit font-semibold { text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] lg:text-[2.25rem] } cursor-none duration-500 hover:text-[2.75rem] hover:font-bold">
         <Link to="/">Home </Link>
       </div>
