@@ -32,6 +32,12 @@ function Contact() {
           <a href="https://twitter.com/vaibhavgarg237">Twitter</a>
         </div>
       </div>
+      <a
+        href="https://calendly.com/vaibhavgarg19/hey-vaibhav?month=2022-11"
+        className="border-solid border-[1px] hover:border-2 absolute rounded-3xl p-2 right-10 bottom-8 text-white font-medium hover:font-extrabold duration-500 text-[0.9rem] hover:text-[1.1rem] sm:text-[1.1rem] hover:sm:text-[1.3rem] md:text-[1.3rem] md:hover:text-[1.5rem] lg:text-[1.5rem] lg:hover:text-[1.7rem] "
+      >
+        Schedule a meet!
+      </a>
       <footer className="absolute [ right-12 top-9 , md:right-auto md:top-auto md:left-12 md:bottom-8 ] text-white font-medium { text-[0.9rem] sm:text-[1.1rem] md:text-[1.3rem] lg:text-[1.5rem] } opacity-80">
         © {new Date().getFullYear()}
       </footer>
