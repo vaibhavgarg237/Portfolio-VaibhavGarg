@@ -14,12 +14,12 @@ function Home() {
       data-aos="zoom-out"
       data-aos-duration="1000"
     >
-      <div className="HOVER_ELEMENT absolute left-12 top-8 font-semibold { text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] lg:text-[2.25rem] } cursor-none duration-500 hover:text-[2.75rem] hover:font-bold">
+      <div className="HOVER_ELEMENT absolute left-12 top-8 font-semibold { text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] lg:text-[2.25rem] } cursor-none duration-500 hover:scale-125 hover:font-bold">
         <Link to="/">Home </Link>
       </div>
-      <div className="INTRO [mobile= mx-auto pt-40 pb-36 w-fit ] md:p-[] md:ml-10 lg:ml-20 xl:ml-40 ">
-        <Atropos className="w-full h-full rounded-full p-5">
-          <div className="NAME font-semibold mb-4 text-3xl hover:text-4xl hover:font-bold duration-500">
+      <div className="INTRO [mobile= rounded-full mx-auto pt-40 pb-36 w-fit ] md:p-[] md:ml-10 lg:ml-20 xl:ml-40 ">
+        <Atropos className="w-full h-full rounded-full p-5 hover:scale-125">
+          <div className="NAME font-semibold mb-4 rounded-full text-3xl hover:font-bold duration-500">
             Vaibhav Garg
           </div>
           <div className="text-1xl md:text-2xl">
@@ -30,26 +30,26 @@ function Home() {
 
       <div className="OTHER_LINKS cursor-none relative || [ mx-auto text-7xl md:ml-auto md:mr-10 lg:mr-20 lg:text-8xl xl:mr-40  || space-y-6 w-fit flex flex-col ">
         <Link
-          className="hover:text-8xl lg:hover:text-9xl duration-500 "
+          className=" hover:scale-110 lg:hover:scale-125 duration-500 "
           to="/work"
         >
           Work
         </Link>
 
         <Link
-          className="hover:text-8xl lg:hover:text-9xl duration-500"
+          className="hover:scale-110 lg:hover:scale-125 duration-500"
           to="/about"
         >
           About
         </Link>
         <a
-          className="hover:text-8xl lg:hover:text-9xl duration-500"
+          className="hover:scale-110 lg:hover:scale-125 duration-500"
           href="https://blog.vaibhavgarg.tech/"
         >
           Blog
         </a>
         <Link
-          className="hover:text-8xl lg:hover:text-9xl duration-500"
+          className="hover:scale-110 lg:hover:scale-125 duration-500"
           to="/contact"
         >
           Contact
