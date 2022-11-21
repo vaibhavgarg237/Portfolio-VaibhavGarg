@@ -7,7 +7,7 @@ AOS.init();
 function UnderMaintenance() {
   return (
     <div data-aos="zoom-out" data-aos-duration="1000">
-      <div className="HOVER_ELEMENT absolute left-12 top-8 font-semibold { text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] lg:text-[2.25rem] } cursor-none duration-500 hover:text-[2.75rem] hover:font-bold">
+      <div className="HOVER_ELEMENT absolute left-12 top-8 font-semibold { text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] lg:text-[2.25rem] } cursor-none duration-500 hover:scale-125 hover:font-bold">
         <Link to="/">Home </Link>
       </div>
       <div className="flex items-center h-screen w-screen">
