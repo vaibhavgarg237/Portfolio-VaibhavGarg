@@ -18,7 +18,7 @@ function Home() {
         <Link to="/">Home </Link>
       </div>
       <div className="INTRO [mobile= rounded-full mx-auto pt-40 pb-36 w-fit ] md:p-[] md:ml-10 lg:ml-20 xl:ml-40 ">
-        <Atropos className="w-full h-full rounded-full p-5 hover:scale-125 duration-500">
+        <Atropos className="shadow-xl shadow-slate-200 w-full h-full rounded-md p-5 hover:scale-125 duration-500">
           <div className="NAME font-semibold mb-4 rounded-full text-3xl hover:font-bold duration-500">
             Vaibhav Garg
           </div>
