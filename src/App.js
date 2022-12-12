@@ -6,6 +6,9 @@ import Contact from "./components/Contact";
 // import About from "./components/About";
 import UnderMaintenance from "./components/UnderMaintenance";
 
+import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
+import TermsOfService from "./components/TermsOfService.jsx";
+
 function App() {
   return (
     <div>
@@ -15,6 +18,8 @@ function App() {
           <Route exact path="/about" element={<UnderMaintenance />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/work" element={<UnderMaintenance />} />
+          <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route exact path="/terms-of-service" element={<TermsOfService />} />
         </Routes>
       </BrowserRouter>
     </div>
