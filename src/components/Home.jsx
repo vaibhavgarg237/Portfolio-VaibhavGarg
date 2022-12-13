@@ -56,8 +56,8 @@ function Home() {
         </Link>
       </div>
       <div className="absolute bottom-2 right-2 space-x-4 mx-4 text-stone-700">
-        <Link to="/privacy-policy">Privacy Policy</Link>
-        <Link to="/terms-of-service">Terms of service</Link>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/terms-of-service">Terms of service</a>
       </div>
       <footer className="absolute [ right-12 top-10 , md:right-auto md:top-auto md:left-12 md:bottom-8 ] text-white font-medium { text-[0.9rem] sm:text-[1.1rem] md:text-[1.3rem] lg:text-[1.5rem] } opacity-80">
         © {new Date().getFullYear()}
